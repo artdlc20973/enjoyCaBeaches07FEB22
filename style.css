@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Opens+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1589&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #ffd92d;
+  font-size: 1.2em;
+  margin: 1.2em;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffd92d;
+  padding: 1.2em;
+}
+
+.nav li a:hover {
+  color: #4abdff;
+}
+
+header {
+  color: #4abdff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 275px auto;
+}
+
+h1 {
+  color: #ffd92d;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-bottom: .4em;
+}
+
+p {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-bottom: 1.6em;
+}
+
+button {
+  background: #ffd82d60;
+  color: #fff;
+  transition: all .5s ease;
+  padding: 12px 45px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  border: none;
+}
+
+button:hover {
+  background: #4abdff54;
+  transform: translateY(10px);
+  border-radius: 25px;
+}
